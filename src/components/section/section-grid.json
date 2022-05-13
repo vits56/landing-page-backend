@@ -2,7 +2,8 @@
   "collectionName": "components_section_section_grids",
   "info": {
     "displayName": "section_grid",
-    "icon": "air-freshener"
+    "icon": "air-freshener",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,18 +19,19 @@
       "type": "component",
       "repeatable": true,
       "component": "section.text-grid",
-      "required": true
+      "required": false
     },
     "image_grid": {
       "type": "component",
       "repeatable": true,
       "component": "section.image-grid",
-      "required": true
+      "required": false
     },
     "metadata": {
       "type": "component",
       "repeatable": false,
-      "component": "section.section-metadata"
+      "component": "section.section-metadata",
+      "required": true
     }
   }
 }
